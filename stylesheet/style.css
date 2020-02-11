@@ -1,15 +1,18 @@
 html {
     font-size: 16px;
-    margin: 0 25px;
     font-family: 'Rubik', sans-serif;
-    margin: 0;
+    margin: 0 25px;
 }
 
-.wrapper header {
+.wrapper header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    right: 0%;
+    width: 100%;
 }
 
 .header-logo-wrapper {
@@ -39,7 +42,7 @@ html {
 .wrapper main {
     background-color: #3CDBC0;
     color: #FFFFFF;
-    height: 500px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;

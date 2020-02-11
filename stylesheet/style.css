@@ -43,6 +43,7 @@ body{
 }
 
 .wrapper main {
+    width: 100%;
     background-color: #3CDBC0;
     color: #FFFFFF;
     height: 1000px;
@@ -91,7 +92,7 @@ body{
     text-align: center;
     }
 
-    .header-logo-wrapper{
+    .header-logo-wrapper {
         transform: translate(70%, 0);
     }
 }
